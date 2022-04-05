@@ -1,0 +1,40 @@
+html{
+    background: linear-gradient(90deg, red , blue , orange );
+}
+.div1, .div2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    color: silver;
+}
+input{
+    padding: 10px 20px;
+    border: 1px solid red;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+}
+button{
+    border: 1px solid blue;
+    background: silver;
+    color: blue;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 20px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+textarea{
+    border: 1px solid orange;
+    width: 50%;
+    padding: 10px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+}
